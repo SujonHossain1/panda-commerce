@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Panda Commerce - Online Shopping</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Main Css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- ==== Navigation menu Start ==== -->
+    <header>
+        <nav class="navbar navbar-expand-md  my-4 navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" alt="">
+                </a>
+                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                    data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#products">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- ==== Navigation menu end ==== -->
+
+    <!-- ==== Carousel Start ==== -->
+    <section class="slider-section container d-none d-md-block">
+        <div id="carouselId" class="carousel bg-pink slide p-5" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselId" data-slide-to="1"></li>
+                <li data-target="#carouselId" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <div class="row align-items-center">
+                        <div class="col-md-7">
+                            <h1 class="mb-4">Mi LED TV 4A PRO 32</h1>
+                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                                piece of classical Latin literature.</p>
+                            <h1 class="text-pink mb-4">$1289</h3>
+                                <button class="btn btn-pink">Buy Now → </button>
+                        </div>
+                        <div class="col-md-5">
+                            <img class="img-fluid" src="images/banner-images/tv.png" alt="First slide">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row align-items-center">
+                        <div class="col-md-7">
+                            <h1 class="mb-4">Awsome Head Phone</h1>
+                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                                piece of classical Latin literature.</p>
+                            <h1 class="text-pink mb-4">$299</h3>
+                                <button class="btn btn-pink">Buy Now → </button>
+                        </div>
+                        <div class="col-md-5">
+                            <img class="img-fluid" src="images/banner-images/headphone.png" alt="First slide">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row align-items-center">
+                        <div class="col-md-7">
+                            <h1 class="mb-4">Super X-BOX</h1>
+                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                                piece of classical Latin literature.</p>
+                            <h1 class="text-pink mb-4">$499</h3>
+                                <button class="btn btn-pink">Buy Now → </button>
+                        </div>
+                        <div class="col-md-5">
+                            <img class="img-fluid" src="images/banner-images/xbox.png" alt="First slide">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- ==== Carousel end ==== -->
+
+    <!-- ==== Category start ==== -->
+    <section id="category">
+        <div class="container my-5">
+            <h3>Categories</h3>
+
+            <div class="row my-4">
+                <div class="col-md-4 mt-2">
+                    <a href="#">
+                        <div class="cat py-2 px-4 d-flex justify-content-between  align-items-center" id="cat-1">
+                            <h1>Watch</h1>
+                            <img class="imf-fluid" src="images/categories/watch.png" alt="">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 mt-2">
+                    <a href="#bag">
+                        <div class="cat py-2 px-4 d-flex justify-content-between  align-items-center" id="cat-2">
+                            <h1>Bag</h1>
+                            <img class="imf-fluid" src="images/categories/bag.png" alt="">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 mt-2">
+                    <a href="#shoe">
+                        <div class="cat py-2 px-4 d-flex justify-content-between  align-items-center" id="cat-3">
+                            <h1>Shoe</h1>
+                            <img class="imf-fluid" src="images/categories/shoes.png" alt="">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==== Category end ==== -->
+
+    <!-- ==== Products section Start ==== -->
+    <section id="products" class="bg-light">
+        <div class="container py-5">
+            <div id="shoe">
+                <div class="products-cat-title d-flex justify-content-between">
+                    <h3>Shoes</h3>
+                    <a href="#" class="text-dark">See All</a>
+                </div>
+                <div class="card-deck py-4">
+                    <div class="card text-center">
+                        <img src="images/shoes/shoe-1.png" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Reebok Dart Men’s Shoes</h5>
+                            <p>Some quick example text to build on
+                                the card title.</p>
+                            <h4 class="my-4">$400</h4>
+                            <button class="btn btn-pink">Buy Now →</button>
+                        </div>
+                    </div>
+                    <div class="card text-center">
+                        <img src="images/shoes/shoe-2.png" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Reebok Pump</h5>
+                            <p>Some quick example text to build on
+                                the card title.</p>
+                            <h4 class="my-4">$780</h4>
+                            <button class="btn btn-pink">Buy Now →</button>
+                        </div>
+                    </div>
+                    <div class="card text-center">
+                        <img src="images/shoes/shoe-3.png" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Reebok All Terrain</h5>
+                            <p>Some quick example text to build on
+                                the card title.</p>
+                            <h4 class="my-4">$400</h4>
+                            <button class="btn btn-pink">Buy Now →</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="bag" class="mt-5">
+                <div class="products-cat-title d-flex justify-content-between">
+                    <h3>Backpack</h3>
+                    <a href="#" class="text-dark">See All</a>
+                </div>
+                <div class="card-deck py-4">
+                    <div class="card text-center">
+                        <img src="images/bags/bag-1.png" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Ison Backpack</h5>
+                            <p>Some quick example text to build on
+                                the card title.</p>
+                            <h4 class="my-4">$999</h4>
+                            <button class="btn btn-pink">Buy Now →</button>
+                        </div>
+                    </div>
+                    <div class="card text-center">
+                        <img src="images/bags/bag-2.png" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Biaowang Backpack </h5>
+                            <p>Some quick example text to build on
+                                the card title.</p>
+                            <h4 class="my-4">$799</h4>
+                            <button class="btn btn-pink">Buy Now →</button>
+                        </div>
+                    </div>
+                    <div class="card text-center">
+                        <img src="images/bags/bag-3.png" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Dxyizu WS54 Smart </h5>
+                            <p>Some quick example text to build on
+                                the card title.</p>
+                            <h4 class="my-4">$700</h4>
+                            <button class="btn btn-pink">Buy Now →</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==== Products section end ==== -->
+
+    <!-- ==== Subscription section start ==== -->
+    <section class="subscription my-5">
+        <div class="container">
+            <div class="bg-pink py-5 ">
+                <div class="col-md-5 mx-auto">
+                    <div class="text-center py-5">
+                        <h2>LET'S STAY IN TOUCH</h2>
+                        <p>Get updates on sales specials and more</p>
+                        <form action="">
+                            <div class="input-group mt-4">
+                                <input type="text" class="form-control" placeholder="Enter your Email">
+                                <div class="input-group-append">
+                                    <button class="btn send">Send Now</button>
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==== Subscription section End ==== -->
+
+    <!-- Footer -->
+    <footer class="bg-light py-3">
+        <p class="text-center mt-2">Panda Commerce 2020 © all Rights Reserved</p>
+    </footer>
+   
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

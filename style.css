@@ -1,0 +1,122 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial,
+        Helvetica,
+        sans-serif;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.bg-pink {
+    background-color: #FEEAE9;
+}
+
+.text-pink {
+    color: #ff267b;
+}
+
+.navbar {
+    font-family: Arial,
+        Helvetica,
+        sans-serif;
+}
+
+.btn-pink {
+    background-image: linear-gradient(to bottom, #FF589B, #FF136F);
+    color: #ffff;
+}
+.btn-pink:hover{
+    color:white;
+    transform: translateX(4px);
+    transition: .5s ease-in-out;
+}
+/* ==== Header ===== */
+.search-bar {
+    position: relative;
+    width: 65%;
+}
+
+
+
+
+/* ==== Slider ==== */
+.carousel {
+    border-radius: 15px;
+}
+
+.carousel-indicators li {
+    height: 8px;
+    width: 16px;
+    border-radius: 5px;
+    background-clip: unset;
+    border: 0;
+    opacity: 1;
+}
+
+.carousel-indicators .active {
+    background-color: #ff267b;
+    width: 35px;
+}
+
+/* ==== Category ==== */
+#category .cat {
+    color: #ffffff;
+    border-radius: 12px;
+}
+
+#category .cat:hover  {
+    transform: translateY(-5px);
+    transition: .3s ease-in-out;
+}
+
+#category .cat img {
+    height: 110px;
+}
+
+#category #cat-1 {
+    background-image: linear-gradient(45deg, #FF9C35, #FFD019);
+}
+
+#category #cat-2 {
+    background-image: linear-gradient(to bottom, #FF589B, #FF136F);
+}
+
+#category #cat-3 {
+    background-image: linear-gradient(45deg, #4289FF, #3F07F8);
+}
+
+
+/* ==== Products ==== */
+#products .card {
+    border: 0;
+    box-shadow: 0 0 30px #0000000d;
+    border-radius: 12px;
+    padding-bottom: 15px;
+    transition: .3s ease-in-out;
+}
+
+#products .card:hover {
+    box-shadow: 0 0 40px #524f4f3b;
+}
+
+.products-cat-title a {
+    color: #FF9D00;
+}
+
+/* ==== subscription===== */
+
+.subscription .send{
+    background-image: linear-gradient(to bottom, #FF589B, #FF136F);
+    color: #ffff;
+    border-radius: 33px;
+}
+
+.subscription .form-control {
+    border: 0;
+    border-radius: 33px;
+}
